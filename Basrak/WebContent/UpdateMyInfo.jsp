@@ -7,7 +7,7 @@
 <% pageContext.include("header.html"); %>
 
 <%-- 메뉴 부분. --%>
-<% pageContext.include("menu.html"); %>
+<%--<% pageContext.include("menu.html"); --%>
 <br/>
 <%-- include : buffer 필요.  buffer에서 조립해서 유저에게 발송.--%>
 <!DOCTYPE html>
