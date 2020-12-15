@@ -1,12 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
 <style>
-    /* 배민 한나체 Air를 사용하기 위한  font family*/
+    /* ë°°ë¯¼ íëì²´ Airë¥¼ ì¬ì©íê¸° ìí  font family*/
 	@font-face {
 		font-family: 'BMHANNAAir';
 		src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/BMHANNAAir.woff') format('woff');
 		font-weight: normal;
 		font-style: normal;
 	}
-	/*배민 한나체 Air*/
+	/*ë°°ë¯¼ íëì²´ Air*/
 	.bmFont{
 		font-family: 'BMHANNAAir';
 	}
@@ -16,26 +19,26 @@
 		text-align: center;
 	}
 
-	/* li태그 수평으로. */
+	/* liíê·¸ ìíì¼ë¡. */
 	li{
-		margin: 25px;	/* li태그 간의 간격. */
+		margin: 25px;	/* liíê·¸ ê°ì ê°ê²©. */
 		display:inline-block;
 	}
 	li:last-child{
 		margin-left: 400px;
 	}
 
-    /* 자주 묻는 질문들 왼쪽정렬 */
+    /* ìì£¼ ë¬»ë ì§ë¬¸ë¤ ì¼ìª½ì ë ¬ */
 	ul1{
 		text-align:left;
 	}
 
 	li1{
-		margin: 5px;	/* li태그 간의 간격. */
+		margin: 5px;	/* liíê·¸ ê°ì ê°ê²©. */
 	}
 
 
-	/* 헤더와 h2 간격*/
+	/* í¤ëì h2 ê°ê²©*/
 	h2{
 		line-height : 2.5px;
 	}
@@ -43,30 +46,30 @@
 </style>
 
 <ul>
-	<li class = "bmFont">바스락 로고</li>
-	<li class = "bmFont">바스락</li>
-	<li class = "bmFont">기사 보기</li>
-	<li class = "bmFont">커뮤니티</li>
-	<li class = "bmFont">문의하기</li>
-	<li class = "bmFont">로그인</li>
+	<li class = "bmFont">ë°ì¤ë½ ë¡ê³ </li>
+	<li class = "bmFont">ë°ì¤ë½</li>
+	<li class = "bmFont">ê¸°ì¬ ë³´ê¸°</li>
+	<li class = "bmFont">ì»¤ë®¤ëí°</li>
+	<li class = "bmFont">ë¬¸ìíê¸°</li>
+	<li class = "bmFont">ë¡ê·¸ì¸</li>
 </ul>
 
-<hr>			<!--  수평선 -->
+<hr>			<!--  ìíì  -->
 </head>
 <body>
-	<h2 class="bmFont">FAQ -자주 묻는 질문</h2> <br>
+	<h2 class="bmFont">FAQ -ìì£¼ ë¬»ë ì§ë¬¸</h2> <br>
 	<ul1 class="bmFont" style="list-style-type:disc;">
-		<li1>로그인이 안돼요!</li><br/><br/>
-		<li1>회원가입은 어떻게 하나요?</li><br/><br/>
-		<li1>회원탈퇴는 어떻게 하나요?</li><br/><br/>
-		<li1>요일을 변경하고 싶어요!</li><br/><br/>
+		<li1>ë¡ê·¸ì¸ì´ ìë¼ì!</li><br/><br/>
+		<li1>íìê°ìì ì´ë»ê² íëì?</li><br/><br/>
+		<li1>íìíí´ë ì´ë»ê² íëì?</li><br/><br/>
+		<li1>ìì¼ì ë³ê²½íê³  ì¶ì´ì!</li><br/><br/>
 	</ul1>
     <div class="bmFont" style="text-align:center;">
   
    <hr>
    
-  <p>FAQ에 찾는 질문이 없다면 1:1 문의를 보내주세요!</p>
-  <button class="btn bmFont" type="button">1:1문의하기</button>
+  <p>FAQì ì°¾ë ì§ë¬¸ì´ ìë¤ë©´ 1:1 ë¬¸ìë¥¼ ë³´ë´ì£¼ì¸ì!</p>
+  <button class="btn bmFont" type="button">1:1ë¬¸ìíê¸°</button>
   </div>
 </body>
 </html>
